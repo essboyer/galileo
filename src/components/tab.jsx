@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class View extends Component {
+class Tab extends Component {
     state = {  }
     render() { 
         return ( 
@@ -10,4 +10,4 @@ class View extends Component {
     }
 }
  
-export default View;
+export default Tab;

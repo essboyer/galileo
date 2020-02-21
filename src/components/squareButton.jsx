@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 
 class SquareButton extends Component {
-    state = {  }
+    state = { 
+        handleClick() {
+            
+        }
+
+    };
+
     render() { 
         return ( 
             <>
-                <Button onClick="{handleClick()}" className="" />
+                <label></label>
+                <Button onClick={this.state.handleClick()} className="" />
             </>
          );
     }
